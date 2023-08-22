@@ -4,7 +4,7 @@ import redo, { REDO } from './redo';
 import reset, { RESET } from './reset';
 import setFeedback, { SET_FEEDBACK } from './setFeedback';
 import showLoader, { SHOW_LOADER } from './showLoader';
-import selectTab, { SELECT_TAB } from './selectTab';
+import selectTab from './selectTab';
 import undo, { UNDO } from './undo';
 import setFinetune, { SET_FINETUNE } from './setFinetune';
 import setAnnotation, { SET_ANNOTATION } from './setAnnotation';
@@ -37,6 +37,8 @@ import setResize, { SET_RESIZE } from './setResize';
 import setSaved, { SET_SAVED } from './setSaved';
 import updateState, { UPDATE_STATE } from './updateState';
 import setLatestColor, { SET_LATEST_COLOR } from './setLatestColor';
+
+const SELECT_TAB = 'SELECT_TAB';
 
 export default {
   [SET_ORIGINAL_IMAGE]: setOriginalImage,

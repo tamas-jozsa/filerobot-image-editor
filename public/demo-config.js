@@ -5,8 +5,8 @@ import Social from '@scaleflex/icons/social';
 import CropClassicTv from '@scaleflex/icons/crop-classic-tv';
 import CropCinemaScope from '@scaleflex/icons/crop-cinema-scope';
 
-import FilerobotImageEditor from 'filerobot-image-editor/src';
-import toPrecisedFloat from 'react-filerobot-image-editor/src/utils/toPrecisedFloat';
+import FilerobotImageEditor from '../packages/filerobot-image-editor/src';
+import toPrecisedFloat from '../packages/react-filerobot-image-editor/src/utils/toPrecisedFloat';
 
 const { TOOLS } = FilerobotImageEditor;
 

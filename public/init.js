@@ -1,7 +1,7 @@
 /* eslint-disable import/no-named-as-default */
 // eslint-disable-next-line import/no-named-as-default-member
 import FilerobotImageEditor from '../packages/filerobot-image-editor/src';
-import config from './demo-config';
+import config from './demo-config.js';
 
 function getElementById(id) {
   return document.getElementById(id);

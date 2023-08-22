@@ -67,7 +67,7 @@
     "rollup-plugin-uglify": "^6.0.4",
     "source-map-explorer": "^2.5.2",
     "styled-components": "5.3.10",
-    "vite": "^2.8.6"
+    "vite": "^2.9.16"
   },
   "scripts": {
     "fix": "prettier-eslint \"packages/**/src/**/*.(js|jsx)\"",
@@ -85,5 +85,11 @@
     "analyze:bundle": "source-map-explorer dist/filerobot-image-editor.min.js{,.map}",
     "release:beta": "yarn && yarn publish:packages --dist-tag beta && yarn publish:js-bundle beta",
     "release:prod": "yarn && yarn publish:packages && yarn publish:js-bundle latest && yarn release:gh-pages"
+  },
+  "dependencies": {
+    "@scaleflex/icons": "^2.1.0",
+    "@scaleflex/ui": "^2.1.6",
+    "konva": "^9.2.0",
+    "scaleflex": "^1.0.0"
   }
 }
